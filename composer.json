@@ -1,0 +1,21 @@
+{
+    "name": "maocae/support",
+    "description": "Support Package for Maocae Library",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Maocae\\Support\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Ritsu Hezayuki",
+            "email": "ritsu.hezayuki@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": "^8.1"
+    }
+}
