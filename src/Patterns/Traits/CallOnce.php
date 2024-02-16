@@ -16,7 +16,7 @@ trait CallOnce
      *
      * @param mixed ...$args
      */
-    protected static function __construct(...$args)
+    protected function __construct(...$args)
     {
 
     }
